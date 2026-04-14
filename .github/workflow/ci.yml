@@ -1,0 +1,7 @@
+Explore-GitHub-Actions:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v6
+    - name: List files
+      run: ls -l
+    - name: Build Image
