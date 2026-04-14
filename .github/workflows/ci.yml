@@ -2,7 +2,7 @@ name: CI - Analytics Service
 on: [push]
 jobs:
   docker_build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - name: List files
