@@ -1,4 +1,4 @@
-name: CI - Analytics Service
+name: CI - Auth Service
 on: [push]
 jobs:
   docker_build:
