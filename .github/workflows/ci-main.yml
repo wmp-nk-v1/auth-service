@@ -8,3 +8,4 @@ on:
 jobs:
   cicd:
     uses: nikkaushal/github-reusable-workflows/.github/workflows/cicd-m.yml@main
+
