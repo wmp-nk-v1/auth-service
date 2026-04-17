@@ -7,4 +7,4 @@ on:
 
 jobs:
   cicd:
-    uses: wmp-nk-v1/nikkaushal/github-reusable-workflows/.github/workflows/cicd-m.yml@main
+    uses: wmp-nk-v1/github-reusable-workflows/.github/workflows/cicd-m.yml@main
