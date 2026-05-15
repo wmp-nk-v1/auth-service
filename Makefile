@@ -11,4 +11,4 @@ eks-deploy:
 
 argocd-deploy:
 	argocd login $(argocd_server) --skip-test-tls --username admin --password $(argocd_admin_password)
-	argocd app create auth-service --sync-policy auto --repo https://github.com/nikkaushal/wmp-helm-v1.git --path . --dest-server https://kubernetes.default.svc   --dest-namespace default --helm-set-string image_tag=$(image_tag) --values values/auth-service.yml --upsert
+	argocd app create auth-service --sync-policy auto --repo https://github.com/nikkaushal/wmp-helm-v2.git --path . --dest-server https://kubernetes.default.svc   --dest-namespace default --helm-set-string image_tag=$(image_tag) --values values/auth-service.yml --upsert
