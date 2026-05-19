@@ -1,3 +1,4 @@
+# UNCOMMENT THIS FOR RUNNING WITHOUT SONARQUBE SCAN
 # FROM        docker.io/library/golang:1.26 AS builder
 # WORKDIR     /app
 # COPY        ./ /app/
